@@ -1,0 +1,100 @@
+* {
+    -fx-font-family: 'Varela Round';
+    -fx-alignment: center;
+    -fx-text-fill: #fff;
+}
+
+#container {
+    -fx-background: #3F8ABF;
+    -fx-pref-width: 500px;
+    -fx-padding: 50px;
+    -fx-spacing: 20px;
+}
+
+
+#title {
+    -fx-font-size: 24px;
+}
+
+
+
+.button {
+  -fx-border-radius: 6px;
+  -fx-border-width: 2px;
+  -fx-border-style: solid;
+  -fx-border-color: #fff;
+  -fx-background-color: none;
+  -fx-text-fill: #fff;
+  -fx-fill-width: true;
+  -fx-cursor: pointer;
+  -fx-padding: 10px 37px 10px 37px;
+  -fx-font-size: 20px;
+
+}
+
+.button:focused, .button:hover{
+    -fx-cursor: hand;
+}
+
+.button:pressed{
+    -fx-cursor: hand;
+    -fx-background-color: rgba(255, 255, 255, 0.30);
+
+}
+
+
+
+#textField1, #textField2 {
+    -fx-pref-width: 300px;
+    -fx-pref-row-count: 3;
+    -fx-border-radius: 6px;
+    -fx-border-width: 2px;
+    -fx-border-color: #fff;
+    -fx-border-style: solid;
+    -fx-font-size: 20px;
+    -fx-text-fill: #000;
+    -fx-focus-traversable: false;
+}
+
+
+
+#feedbackContainer{
+
+    -fx-background-color: rgba(255, 255, 255, 0.80);
+    -fx-pref-width: 500px;
+    -fx-pref-height: 300px;
+    -fx-font-size: 16px;
+    -fx-border-width: 2px;
+    -fx-border-color: #fff;
+    -fx-border-style: solid;
+    -fx-text-fill: #23c861;
+    -fx-content-display: center;
+    fx-wrap-text:true;
+
+}
+
+#result{
+    -fx-font-size: 24px;
+
+}
+
+.label{
+    -fx-wrap-text:true;
+    -fx-text-alignment: center;
+}
+
+
+.succeed{
+    -fx-text-fill: #23c861;
+
+}
+
+
+.error{
+    -fx-text-fill: #c83850;
+
+}
+
+
+
+
